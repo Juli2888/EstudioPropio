@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Contenedor  {
+    border: 2px black solid; 
+}
+
+.cabecera { 
+ margin-left: 20px;
+}
+
+.Contenedor2{
+    margin-top: 40px;
+    border: 2px black solid;
+}
+
+.Datos{
+    margin-left: 20px;
+}

@@ -1,0 +1,46 @@
+.contCard{
+  cursor: pointer;
+}
+body {
+background-color: rgb(255, 255, 255);
+}
+
+.card-img-top {
+  margin-left: 5px;
+  width: 150px; /* ajusta el ancho según tus necesidades */
+  height: 250px; /* ajusta la altura según tus necesidades */
+  object-fit: cover; /* asegura que la imagen cubra todo el espacio */
+}
+
+/* Ajusta el tamaño máximo del contenedor del cuerpo de la tarjeta */
+.card-body {
+  max-width: 18rem; /* Establece el ancho máximo del contenedor del cuerpo de la tarjeta */
+}
+
+/* Establece el fondo transparente para la tarjeta */
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 160px;
+  border: none !important; /* Elimina el borde de la tarjeta */
+}
+
+
+
+
+/* Establece el fondo transparente para el contenedor del título */
+.card-title {
+  background-color: transparent !important; /* Hace que el fondo detrás del título sea transparente */
+  color: rgb(0, 0, 0);
+}
+
+/* Establece el fondo transparente para el contenedor del texto */
+.card-text {
+  background-color: transparent !important; /* Hace que el fondo detrás del texto sea transparente */
+  color: rgb(0, 0, 0);
+}
+
+.container-game .card img {
+  
+  margin: auto; /* Alinear la imagen al centro horizontalmente */
+  display: block; /* Asegurarse de que la imagen esté centrada */
+}

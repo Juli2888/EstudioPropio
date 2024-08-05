@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de etiquetas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table, th, td{
+            border: 1px solid black; 
+        }
+        
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Es gratis</td>
+            </tr>
+            <tr>
+                <td>Hola munedo</td>
+                <td>No es gratis</td>
+            </tr>
+            <tr>
+                <td>Hola beats camarada</td>
+                <td>$20.000</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $60.000</td>
+        </tfoot>
+       
+    </table>
+    <h1>Mi primer heading</h1>
+    <h2>Mi primer heading</h2>
+    <h3>Mi primer heading</h3>
+    <h4>Mi primer heading</h4>
+    <h5>Mi primer heading</h5>
+    <h6>Mi primer heading</h6>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi adipisci quibusdam itaque reiciendis voluptatem quia aspernatur totam perspiciatis cumque harum! Obcaecati, sint blanditiis reprehenderit modi illum incidunt. Earum, dicta sunt.</P>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, hic?</p>
+    <hr>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit, <span style="color: blue;">amet consectetur adipisicing </span> elit. Ratione, non reprehenderit 
+        voluptates laboriosam sapiente ipsa molestiae <br> 
+        perspiciatis! Nisi ratione voluptatum id laborum! Officia sapiente voluptate nihil, consequatur sequi explicabo iste?</p>
+    <!--This text is a comment-->
+    <a target="_blank" href="https://www.google.com.co">Ir a google</a>
+    <img src="img/doberman.jpg" width="300px" height="200px"/>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="Julian" type="text" id="nombre" name="nombre" placeholder="Nombre del usuario"/>
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input value="Montenegro" type="text" id="apellido" name="apellido" placeholder="Apellido del usuario"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea rows="10" cols="50" name="comentario" id="comentario" placeholder="comentario" ></textarea>
+        <br>
+        <!-- 
+        <button type="reset"> Enviar</button>
+        <button type="submit"> Enviar</button> -->
+        <button type="button"> Enviar</button>
+
+    </form>
+    <!--Lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--Lista  ordenada-->
+    <ol>
+        <li value="50">Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 4</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>

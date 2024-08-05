@@ -1,0 +1,75 @@
+/* Reinicio la pagina a estilos desde cero */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+min-height: 100vh;
+background-color: rgb(211, 211, 99);
+display: grid;
+place-items: center;
+}
+.calculadora{
+    background-color: #1b1e5b;
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    /* crea las columnas */
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.5rem;
+
+}
+/* Estilos de la pantalla */
+.pantalla{
+/* Estilo de la pantalla */
+    grid-column: 1 / -1; /* Ocupa todas las columnas disponibles */
+    background-color: rgb(17, 17, 52); /* Color de fondo */
+    padding: 1.5rem; /* Espaciado interno */
+    font-size: 2rem; /* Tamaño del texto */
+    text-align: right; /* Alineación del texto a la derecha */
+    border-radius: 0.5rem; /* Radio de borde */
+    margin-bottom: 1rem; /* Margen inferior */
+    font-family: monospace; /* Tipo de fuente */
+    font-weight: 600; /* Peso de la fuente */
+    /* Estilo adicional para ajustar el texto */
+    overflow: hidden; /* Controla el comportamiento del desbordamiento de contenido */
+    /*
+    "overflow: hidden;" oculta cualquier contenido que exceda el tamaño del elemento
+    Esto asegura que el texto que sea demasiado grande para caber en la pantalla no se muestre fuera de la misma
+    */
+}
+
+/* Estilos de botones */
+
+.btn{
+    background-color:rgb(17, 17, 52) ;
+    color: white;
+    border: 0;
+    padding: 1.5rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(67, 67, 119) ;
+}
+/* Estilo cero */
+#cero{
+    grid-column: span 2;
+}
+#igual{
+    grid-row:span 2 ;
+    background-color: rgb(104, 4, 47);
+}
+
+#igual:hover{
+    background-color: rgb(119, 22, 72);
+}

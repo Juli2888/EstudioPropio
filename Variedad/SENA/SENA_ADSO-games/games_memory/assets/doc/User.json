@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "nickname": "user123",
+    "nombre": "Cristiano Ronaldo",
+    "img": "imagen1.jpg",
+    "valor": 1500
+  },
+  {
+    "id": 2,
+    "nickname": "cool_guy",
+    "nombre": "Lionel Messi",
+    "img": "imagen2.jpg",
+    "valor": 2200
+  },
+  {
+    "id": 3,
+    "nickname": "awesome_dude",
+    "nombre": "Radamel Falcao",
+    "img": "imagen3.jpg",
+    "valor": 1800
+  },
+  {
+    "id": 4,
+    "nickname": "sunny_girl",
+    "nombre": "kylian mbappé",
+    "img": "imagen4.jpg",
+    "valor": 2100
+  },
+  {
+    "id": 5,
+    "nickname": "smiley_face",
+    "nombre": "Erling Haaland",
+    "img": "imagen5.jpg",
+    "valor": 1900
+  },
+  {
+    "id": 6,
+    "nickname": "tech_wizard",
+    "nombre": "Mohamed Salah",
+    "img": "imagen6.jpg",
+    "valor": 2300
+  },
+  {
+    "id": 7,
+    "nickname": "mastermind",
+    "nombre": "Iker Casillas",
+    "img": "imagen7.jpg",
+    "valor": 2500
+  },
+  {
+    "id": 8,
+    "nickname": "happy_camper",
+    "nombre": "Luis Diaz",
+    "img": "imagen8.jpg",
+    "valor": 1700
+  },
+  {
+    "id": 9,
+    "nickname": "gaming_guru",
+    "nombre": "Marcelo Vieira",
+    "img": "imagen9.jpg",
+    "valor": 2000
+  },
+  {
+    "id": 10,
+    "nickname": "code_ninja",
+    "nombre": "Ronaldinho",
+    "img": "imagen10.jpg",
+    "valor": 2400
+  },
+  {
+    "id": 11,
+    "nickname": "design_maven",
+    "nombre": "Ronaldo Nazário",
+    "img": "imagen11.jpg",
+    "valor": 2100
+  },
+  {
+    "id": 12,
+    "nickname": "music_lover",
+    "nombre": "kevin de bruyne",
+    "img": "imagen12.jpg",
+    "valor": 1800
+  },
+  {
+    "id": 13,
+    "nickname": "coffee_addict",
+    "nombre": "Jude Bellingham",
+    "img": "imagen13.jpg",
+    "valor": 2200
+  },
+  {
+    "id": 14,
+    "nickname": "bookworm",
+    "nombre": "Neymar",
+    "img": "imagen14.jpg",
+    "valor": 1900
+  },
+  {
+    "id": 15,
+    "nickname": "fitness_freak",
+    "nombre": "Diego Maradona",
+    "img": "imagen15.jpg",
+    "valor": 2300
+  },
+  {
+    "id": 16,
+    "nickname": "adventure_seeker",
+    "nombre": "Pelé",
+    "img": "imagen16.jpg",
+    "valor": 2000
+  },
+  {
+    "id": 17,
+    "nickname": "art_enthusiast",
+    "nombre": "Zinedine Zidane",
+    "img": "imagen17.jpg",
+    "valor": 2500
+  },
+  {
+    "id": 18,
+    "nickname": "traveler",
+    "nombre": "Carlos Valderrama",
+    "img": "imagen18.jpg",
+    "valor": 1700
+  },
+  {
+    "id": 19,
+    "nickname": "nature_lover",
+    "nombre": "Virgil van Dijk",
+    "img": "imagen19.jpg",
+    "valor": 2100
+  },
+  {
+    "id": 20,
+    "nickname": "foodie",
+    "nombre": "Sergio Ramos",
+    "img": "imagen20.jpg",
+    "valor": 2400
+  }
+]

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link icon-->
+    <link type="image/x-icon" href="./assets/img/logos/logo-favicon.png"
+      rel="icon">
+    <!--Style Animate-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Style Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous">
+    <!--Style App-->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>MEMORY GAME</title>
+  </head>
+
+  <body>
+    <!--Header-->
+
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="data:image/png;base64,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"
+              alt width="180" height="40">
+          </a>
+          <label for id="labelName">USERNAME: DIEGO</label>
+          <label for id="labelPoints">POINTS: 0</label>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">
+              ACTIONS
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+              <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                  data-bs-target="#modalPoints">Historical Points</a></li>
+              <li><a class="dropdown-item" href="SENA_ADSO-admin-games/admin-game-memory/index.html">Administrador</a></li>
+              <li><a class="dropdown-item" href="./index.html">Cerrar</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--End Header-->
+
+    <!--Container Choronometer-->
+    <div class="container">
+      <div class="row" id="chronometerId">
+        <div class="col-2 mx-auto text-center"><label for>00</label></div>
+        <div class="col-2 mx-auto text-center"><label for>00</label></div>
+        <div class="col-2 mx-auto text-center"><label for>00</label></div>
+      </div>
+    </div>
+    <!--End Container Choronometer-->
+
+    <!--Container progress-->
+    <div class="progress col-6 mx-auto">
+      <div class="progress-bar progress-bar-striped" id="progressbarId"
+        aria-valuemin="0" aria-valuemax="100"
+        style="min-width: 0px;">
+      </div>
+
+    </div>
+    <!--End Container progress-->
+
+    <!--Container level-->
+    <div class="container">
+      <label class="text-center">LEVEL</label>
+      <select class="form-select" onchange="setLevel(this.value)"
+        aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="2">EASY</option>
+        <option value="4">HALF</option>
+        <option value="6">HARD</option>
+      </select>
+    </div>
+    <!--End Container level-->
+    <!--Container-->
+
+    <div class="container" id="containerGame">
+
+    </div>
+    <!--End Container-->
+
+    <!--Container Modal-->
+    <div class="modal fade" id="modalPoints" data-bs-backdrop="static"
+      data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPointsLabel">Historical Points</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-hover ">
+              <thead class="table-dark">
+                <tr>
+                  <th>#</th>
+                  <th>USERS</th>
+                  <th>POINTS</th>
+                </tr>
+              </thead>
+              <tbody id="contTbody">
+                <tr>
+                  <td class="text-center">1</td>
+                  <td class="text-center">DIEGO</td>
+                  <td class="text-center">0</td>
+                </tr>
+                <tr>
+                  <td class="text-center">2</td>
+                  <td class="text-center">DIEGO</td>
+                  <td class="text-center">0</td>
+                </tr>
+              </tbody>
+              <tfoot class="table-dark">
+                <tr>
+                  <td>#</td>
+                  <td>USERS</td>
+                  <td>POINTS</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary w-100"
+              data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Container Modal-->
+    <!--bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <!--My class game-->
+    <script src="assets/js/Chronometer.js"></script>
+    <!--My class game-->
+    <script src="assets/js/Game.js"></script>
+
+    <!--My js-->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      getDataStorage('users');
+    function getDataStorage(obj){
+  
+  let getData=localStorage.getItem(obj);
+//console.log(getData);
+
+let x=JSON.parse(getData);
+//console.log(x['users'][0].username);
+let url=location.href;
+let getDataUri=url.substring(url.indexOf("?")+1,url.length).split("&");
+let name=getDataUri[0].split("=");
+let points=getDataUri[1].split("=");
+document.getElementById("labelName").innerHTML="USERNAME: "+name[1];
+document.getElementById("labelPoints").innerHTML="POINTS: "+points[1];
+createTableUser();
+ 
+}
+
+function createTableUser(){
+  let getData=JSON.parse(localStorage.getItem('User'));
+  var contTable=document.getElementById('contTbody');
+  var newRow="";
+  let cont=0;
+  getData['User'].forEach(element => {    
+    cont++;
+    newRow+='<tr><td class="text-center">'+cont+'</td><td class="text-center">'+element.user+'</td><td class="text-center">'+element.points+'</td></tr>'
+  });    
+  contTable.innerHTML=newRow;
+  }
+
+  </script>
+  </body>
+
+</html>
